@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85eb8d1083e769543a9111e596cbee5c, type: 3}
+  m_Name: NPC_1
+  m_EditorClassIdentifier: 
+  actor: {fileID: 1091751869398915397, guid: 3d96e539ec8a17d4e92be1ca8fec7c84, type: 3}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: "Mo\xE7a"
+    profile: {fileID: -8690178428761904197, guid: fe5e747effa3f1344828553d0aea8260, type: 3}
+    sentence:
+      portuguese: "Ol\xE1, player!"
+      english: Hello, player!
+      spanish: Hola, player!
+  - actorName: "Mo\xE7a"
+    profile: {fileID: 8052179660830632159, guid: fe5e747effa3f1344828553d0aea8260, type: 3}
+    sentence:
+      portuguese: Bem-vindo a nossa vila!
+      english: Welcome to our village!
+      spanish: Bien venido a nuesta vila!
+  - actorName: "Mo\xE7a"
+    profile: {fileID: -8091321643688609963, guid: fe5e747effa3f1344828553d0aea8260, type: 3}
+    sentence:
+      portuguese: Posso ajudar em algo?
+      english: Can I help you?
+      spanish: Posso ajudar-te?
